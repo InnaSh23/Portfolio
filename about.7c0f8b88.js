@@ -1,0 +1,2 @@
+"use strict";let e=document.querySelector(".burger"),t=document.querySelector(".menu__photo"),s=document.querySelector(".menu__list"),o=document.querySelector(".content"),c=document.querySelector(".page");e.addEventListener("click",function(){e.classList.toggle("cross"),e.classList.toggle("show"),t.classList.toggle("show"),s.classList.toggle("show"),o.classList.toggle("slide"),c.classList.toggle("scroll")});
+//# sourceMappingURL=about.7c0f8b88.js.map
