@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+
+	@include onTablet {
+		font-size: 20px;
+	}
+
+	@include onDesctop {
+		font-size: 30px;
+	}
+}
+
+html,
+body {
+	height: 100%;
+}

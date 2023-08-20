@@ -1,0 +1,19 @@
+.header {
+	padding-top: 20px;
+	display: flex;
+	justify-content: flex-end;
+
+	@include onTablet {
+		padding-top: 40px;
+	}
+
+	@include onDesctop {
+		padding-top: 50px;
+	}
+	
+	&__burger {
+		position: relative;
+		z-index: 2;
+		overflow: hidden;
+	}
+}
