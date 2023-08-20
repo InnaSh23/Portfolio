@@ -1,0 +1,2 @@
+let e=document.querySelector(".burger"),t=document.querySelector(".menu__photo"),s=document.querySelector(".menu__list"),o=document.querySelector(".content"),l=document.querySelector(".page");e.addEventListener("click",function(){e.classList.toggle("cross"),e.classList.toggle("show"),t.classList.toggle("show"),s.classList.toggle("show"),o.classList.toggle("slide"),l.classList.toggle("scroll")});
+//# sourceMappingURL=index.399ec296.js.map
