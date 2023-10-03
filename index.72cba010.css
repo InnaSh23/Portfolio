@@ -265,7 +265,7 @@ body {
 	width: 200px;
 	height: 200px;
 	display: block;
-	position: relative
+	position: relative;
 }
 
 @media (width>=710px) {
@@ -282,12 +282,21 @@ body {
 .content__work-link-5,
 .content__work-link-6,
 .content__work-link-7,
-.content__work-link-8 {
+.content__work-link-8,
+.content__work-link-9 {
 	transition: opacity .3s;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%)
+	transform: translate(-50%, -50%);
+}
+
+.content__work-link-7 {
+	transition: opacity .3s;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
 .content__work-link-1:hover,
@@ -297,7 +306,8 @@ body {
 .content__work-link-5:hover,
 .content__work-link-6:hover,
 .content__work-link-7:hover,
-.content__work-link-8:hover {
+.content__work-link-8:hover,
+.content__work-link-9:hover {
 	opacity: .5
 }
 
