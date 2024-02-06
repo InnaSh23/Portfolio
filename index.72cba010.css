@@ -284,7 +284,10 @@ body {
 .content__work-link-7,
 .content__work-link-8,
 .content__work-link-9,
-.content__work-link-10 {
+.content__work-link-10,
+.content__work-link-11,
+.content__work-link-12,
+.content__work-link-13 {
 	transition: opacity .3s;
 	position: absolute;
 	top: 50%;
@@ -309,7 +312,10 @@ body {
 .content__work-link-7:hover,
 .content__work-link-8:hover,
 .content__work-link-9:hover,
-.content__work-link-10:hover {
+.content__work-link-10:hover,
+.content__work-link-11:hover,
+.content__work-link-12:hover,
+.content__work-link-13:hover {
 	opacity: .5
 }
 
